@@ -4,14 +4,13 @@
 
 /* div#headerFrame */
 div#headerFrame {
-    border-bottom: 1px solid #aaa;
     border-top: 2px solid #284a7e;
 }
 #headerFrame>header#header {
     width: 1220px;
-    height: 170px;
+    height: 126px;
     /*border: 1px solid #aaa;*/
-    padding-bottom: 30px;
+    padding-bottom: 24px;
     margin: 0 auto;
     /*margin-bottom: 30px;*/
 
@@ -27,7 +26,7 @@ div#headerFrame {
 }
 
 div#headerMenuArea {
-    /*border: 1px solid #f80;*/
+   /* border: 1px solid #f80;*/
 
     -webkit-flex: 1px;
     -moz-flex: 1px;
@@ -37,7 +36,7 @@ div#headerMenuArea {
 }
 
 #headerFrame nav {
-    height: 85px;
+    height: 50px;
     /*border: 1px solid #08f;*/
 
     justify-content: flex-end;
@@ -46,6 +45,18 @@ div#headerMenuArea {
 
 #headerFrame nav#headerLNB {
     text-align: right;
+    padding-bottom: 8px;
+    /*border: 1px solid #000;*/
+}
+#headerFrame nav#headerLNB span {
+    color: #3f50a1;
+    font-size: 15px;
+    /*border: 1px solid #000;*/
+    margin: 0 6px;
+}
+
+#headerFrame nav#headerLNB span:not(:nth-child(2)) {
+    cursor: pointer;
 }
 
 
@@ -95,12 +106,14 @@ div#headerMenuArea {
 
 #headerFrame nav#gnb ul.subMenu {
 
-    border: 1px solid #f80;
+    border-right: 1px solid #aaa;
+    border-left: 1px solid #aaa;
 
+    background-color: #fff;
     display: none;
-
     position: absolute;
-    top: 115px;
+    top: 76px;
+    z-index: 10;
 }
 
 #headerFrame nav#gnb li.mainLi>a {
@@ -113,13 +126,60 @@ div#headerMenuArea {
 
 #headerFrame nav#gnb li.subLi>a {
     font-size: 14px;
-    line-height: 28px;
+    line-height: 30px;
     padding: 0 20px;
 }
     /* nav#gnb */
 
 
 /* div#headerFrame */
+
+
+/* div#gnbBGFrame */
+
+div#gnbBGFrame {
+    width: 100%;
+    height: 183px;
+
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+
+    background-color: #fff;
+    /*display: none;*/
+    position: absolute;
+}
+
+
+    /* div#gnbBG */
+div#gnbBG {
+    width: 100%;
+    height: 180px;
+
+
+}
+    /* div#gnbBG */
+
+/* div#gnbBGFrame */
+
+
+
+
+/* div#searchArea */
+div#searchArea {
+    width: 100%;
+    height: 710px;
+    background-image: url(../images/visua_a.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+div#searchArea>div#searchBG {
+
+    /*border: 1px solid #f80;*/
+    margin: 0 auto;
+
+}
+/* div#searchArea */
 
 
 
