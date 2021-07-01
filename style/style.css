@@ -180,17 +180,76 @@ div#gnbBG {
 div#searchArea {
     width: 100%;
     height: 710px;
+    padding-top: 70px;
     background-image: url(../images/visua_a.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
+div#searchArea>h1 {
+    color: #fff;
+    width: 600px;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin: 50px auto;
+}
 div#searchArea>div#searchBG {
+    width: 770px;
 
-    /*border: 1px solid #f80;*/
+    padding: 12px 26px 25px;
+    border: 1px solid #f80;
+    border-radius: 50px;
     margin: 0 auto;
 
+    background-color: #fff;
 }
+
+div#searchArea>div#searchBG span {
+    width: 36px;
+    height: 36px;
+    /*border: 1px solid #000;*/
+    display: inline-block;
+}
+
+div#searchArea>div#searchBG span#closeMark {
+    color: #666;
+    font-size: 44px;
+    text-align: center;
+    line-height: 44px;
+    /*display: none;  공간도 사라지므로 안됨!*/
+    visibility: hidden;   /* 공간을 남겨둔채로 사라짐 */
+
+    transform: translateY(7px);
+}
+
+div#searchArea>div#searchBG span#searchMark {
+
+    margin-right: 14px;
+
+    background-image: url(../images/btn_search.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    transform: translateY(12px);
+
+
+}
+div#searchArea>div#searchBG>input {
+    color: #666;
+    width: 620px;
+    font-size: 17px;
+    padding: 10px 0;
+    border: none;
+}
+
+    /*placeholder 속성에 CSS 적용시작*/
+div#searchArea>div#searchBG>input::placeholder {
+    color: #aaa;
+    font-size: 19px;
+}   /* 슈도 엘리먼트 속성 */
+    /*placeholder 속성에 CSS 적용끝*/
+
 /* div#searchArea */
 
 
