@@ -106,18 +106,21 @@
         </div> <!-- div#gnbBGFrame -->
 
 
+        <form action="support/sample.html" method="get">
+            <div id="searchArea">
 
-        <div id="searchArea">
-            <h1>도로명 주소를 찾으시나요?</h1>
-            <div id="searchBG">
-                <input id="searchWord" type="text"         placeholder="예) 한누리대로 411, 국립중앙박물관, 상암동 1595, 초성검색"
-                        maxlength="50">
-                        <!-- value attribute 밸류 속성 -->
-                <span id="closeMark">  &times;  </span>
-                <span id="searchMark"></span>
-            </div>
-        </div>
+                <h1>도로명 주소를 찾으시나요?</h1>
 
+                <div id="searchBG">
+                    <input id="searchWord" type="text" placeholder="예) 한누리대로 411, 국립중앙박물관, 상암동 1595, 초성검색" maxlength="50" name="searchKeyword">
+                    <!-- value attribute 밸류 속성 -->
+                    <span id="closeMark">&times;</span>
+                    <span id="searchMark"></span> <!--전송실행-->
+
+                </div> <!-- div#searchBG-->
+
+            </div> <!-- div#searchArea -->
+        </form>
 
 
 
