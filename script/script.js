@@ -75,8 +75,6 @@ $(function(){
             $("form").submit();
         }
 
-
-
         // 텍스트박스에 포커스 설정하기
         // $("선택자").포커스설정기능(); => 해당메서드 .focus()
         $("input#searchWord").focus();
@@ -87,6 +85,28 @@ $(function(){
     /* 검색창 실행 유효성검사 끝 */
 
 
+    /* 도로명 주소 클래스속성 추가/제거 ul#jusoItem>li 시작 */
+
+    $("ul#jusoItem>li").click(function(){
+        $("ul#jusoItem>li").removeClass("selected");
+
+        $(this).addClass("selected");
+
+    });
+
+
+    /* 도로명 주소 클래스속성 추가/제거 ul#jusoItem>li 끝 */
+
+    /* 도로명 주소 슬라이드쇼 샘플(임시적용) */
+    $("ul#jusoItem>li:nth-child(2)").click(function(){
+
+        $("div#jusoIntro div#shuttleFrame").animate(
+            {"margin-left": "-800px"},
+            3000
+        );
+
+    });
+    /* 도로명 주소 슬라이드쇼 샘플(임시적용) */
 
 
 });   // 제이쿼리 템플릿코드

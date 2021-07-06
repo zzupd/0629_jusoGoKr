@@ -115,7 +115,8 @@
                     <input id="searchWord" type="text" placeholder="예) 한누리대로 411, 국립중앙박물관, 상암동 1595, 초성검색" maxlength="50" name="searchKeyword">
                     <!-- value attribute 밸류 속성 -->
                     <span id="closeMark">&times;</span>
-                    <span id="searchMark"></span> <!--전송실행-->
+                    <span id="searchMark"></span>
+                    <!--전송실행-->
 
                 </div> <!-- div#searchBG-->
 
@@ -125,47 +126,85 @@
 
         <div id="mainIconLNB_Frame">
 
-           <nav id="mainIconLNB" class="flex-container">
-              <div class="mainIconBox" title="도로명주소 지도 보기 새창으로 열림">
-                  <div class="mainIcon">
-                      <img src="images/icon_qmn_1.png" alt="지도 보기">
-                  </div>
-                  <span>지도 보기</span>
-              </div>
-              <div class="mainIconBox">
-                  <div class="mainIcon">
-                      <img src="images/icon_qmn_2.png" alt="도로명 정보 조회">
-                  </div>
-                  <span>도로명 정보 조회</span>
-              </div>
-              <div class="mainIconBox">
-                  <div class="mainIcon">
-                      <img src="images/icon_qmn_3.gif" alt="지역별 도로명">
-                  </div>
-                  <span>지역별 도로명</span>
-              </div>
-              <div class="mainIconBox">
-                  <div class="mainIcon">
-                      <img src="images/icon_qmn_4.png" alt="주소 전환">
-                  </div>
-                  <span>주소 전환</span>
-              </div>
+            <nav id="mainIconLNB" class="flex-container">
+                <div class="mainIconBox" title="도로명주소 지도 보기 새창으로 열림">
+                    <div class="mainIcon">
+                        <img src="images/icon_qmn_1.png" alt="지도 보기">
+                    </div>
+                    <span>지도 보기</span>
+                </div>
+                <div class="mainIconBox">
+                    <div class="mainIcon">
+                        <img src="images/icon_qmn_2.png" alt="도로명 정보 조회">
+                    </div>
+                    <span>도로명 정보 조회</span>
+                </div>
+                <div class="mainIconBox">
+                    <div class="mainIcon">
+                        <img src="images/icon_qmn_3.gif" alt="지역별 도로명">
+                    </div>
+                    <span>지역별 도로명</span>
+                </div>
+                <div class="mainIconBox">
+                    <div class="mainIcon">
+                        <img src="images/icon_qmn_4.png" alt="주소 전환">
+                    </div>
+                    <span>주소 전환</span>
+                </div>
 
-              <div class="mainIconBox">
-                  <div class="mainIcon">
-                      <img src="images/icon_qmn_5.png" alt="도움센터(Q&A)">
-                  </div>
-                  <span>도움센터(Q&A)</span>
-              </div>
+                <div class="mainIconBox">
+                    <div class="mainIcon">
+                        <img src="images/icon_qmn_5.png" alt="도움센터(Q&A)">
+                    </div>
+                    <span>도움센터(Q&A)</span>
+                </div>
 
-           </nav>
+            </nav>
 
-        </div>  <!-- div#iconLNB -->
+        </div> <!-- div#iconLNB -->
 
 
         <div id="jusoIntro_Frame">
 
-            <div id="jusoIntro"></div>
+            <div id="jusoIntro" class="flex-container">
+
+                <div id="aboutJuso">
+                    <ul id="jusoItem">
+                        <li class="selected">도로명 주소란?</li>
+                        <li>건물번호 생성과정</li>
+                        <li>도로명의 의미</li>
+                        <li>상세주소에 대해</li>
+                        <li>주소정보시설 확인</li>
+                        <li>국가지점번호란?</li>
+                        <li>국가기초구역의 사용</li>
+                    </ul>
+                </div> <!-- 인디케이터 영역 -->
+
+                <div id="slide">
+                    <div id="shuttleFrame">
+                        <div class="flex-container">
+                            <div id="jusoRoadSign">
+                                <img src="images/know_addr_1.gif" alt="주소이미지">
+                            </div>
+                            <div id="jusoExplain">
+                                <h2>도로명 주소란?</h2>
+                                <hr>
+                                <p>
+                                    도로명 주소는
+                                    <span>도로명 + 건물번호</span>로
+                                    이루어져 있습니다.
+                                </p>
+                                <p>
+                                    도로명은 도로구간마다 부여한 이름으로
+                                    <br>
+                                    <span>명사 + 도로별 구분기준(대로/로/길)</span>으로 구성합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- div#jusoIntro-->
 
         </div> <!-- div#jusoIntro_Frame -->
 

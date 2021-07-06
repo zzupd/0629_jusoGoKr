@@ -6,7 +6,8 @@
 div#headerFrame {
     border-top: 2px solid #284a7e;
 }
-#headerFrame>header#header {
+
+#headerFrame > header#header {
     width: 1220px;
     height: 126px;
     /*border: 1px solid #aaa;*/
@@ -27,7 +28,7 @@ div#headerFrame {
 }
 
 div#headerMenuArea {
-   /* border: 1px solid #f80;*/
+    /* border: 1px solid #f80;*/
 
     -webkit-flex: 1px;
     -moz-flex: 1px;
@@ -49,6 +50,7 @@ div#headerMenuArea {
     padding-bottom: 30px;
     /*border: 1px solid #000;*/
 }
+
 #headerFrame nav#headerLNB span {
     color: #3f50a1;
     font-size: 15px;
@@ -61,7 +63,7 @@ div#headerMenuArea {
 }
 
 
-    /* nav#gnb */
+/* nav#gnb */
 #headerFrame nav#gnb {
     padding-left: 40px;
 }
@@ -74,34 +76,34 @@ div#headerMenuArea {
     position: relative;
 }
 
-#headerFrame nav#gnb ul#mainMenu>li{
+#headerFrame nav#gnb ul#mainMenu > li {
     padding: 20px 0;
     /*border: 1px solid #08f;*/
 }
 
-#headerFrame nav#gnb ul#mainMenu>li:first-child,
-#headerFrame nav#gnb ul#mainMenu>li:first-child>ul{
+#headerFrame nav#gnb ul#mainMenu > li:first-child,
+#headerFrame nav#gnb ul#mainMenu > li:first-child > ul {
     width: 180px;
 }
 
-#headerFrame nav#gnb ul#mainMenu>li:nth-child(2),
-#headerFrame nav#gnb ul#mainMenu>li:nth-child(2)>ul{
+#headerFrame nav#gnb ul#mainMenu > li:nth-child(2),
+#headerFrame nav#gnb ul#mainMenu > li:nth-child(2) > ul {
     width: 208px;
 }
 
-#headerFrame nav#gnb ul#mainMenu>li:nth-child(3),
-#headerFrame nav#gnb ul#mainMenu>li:nth-child(3)>ul{
+#headerFrame nav#gnb ul#mainMenu > li:nth-child(3),
+#headerFrame nav#gnb ul#mainMenu > li:nth-child(3) > ul {
     width: 190px;
 }
 
-#headerFrame nav#gnb ul#mainMenu>li:nth-child(4),
-#headerFrame nav#gnb ul#mainMenu>li:nth-child(4)>ul{
+#headerFrame nav#gnb ul#mainMenu > li:nth-child(4),
+#headerFrame nav#gnb ul#mainMenu > li:nth-child(4) > ul {
     width: 180px;
 }
 
 
-#headerFrame nav#gnb ul#mainMenu>li:nth-child(5),
-#headerFrame nav#gnb ul#mainMenu>li:nth-child(5)>ul{
+#headerFrame nav#gnb ul#mainMenu > li:nth-child(5),
+#headerFrame nav#gnb ul#mainMenu > li:nth-child(5) > ul {
     width: 220px;
 }
 
@@ -123,7 +125,8 @@ div#headerMenuArea {
     position: relative;
     left: -12px;
 }
-#headerFrame nav#gnb li.mainLi>a {
+
+#headerFrame nav#gnb li.mainLi > a {
     width: 100%;
     font-size: 20px;
     text-align: center;
@@ -131,17 +134,19 @@ div#headerMenuArea {
     display: inline-block;
 }
 
-#headerFrame nav#gnb li.subLi>a {
+#headerFrame nav#gnb li.subLi > a {
     font-size: 14px;
     line-height: 42px;
     padding: 0 20px;
 
 }
+
 #headerFrame nav#gnb li.subLi:hover {
     color: #fff;
     background-color: #f56254;
 }
-    /* nav#gnb */
+
+/* nav#gnb */
 
 
 /* div#headerFrame */
@@ -162,14 +167,15 @@ div#gnbBGFrame {
 }
 
 
-    /* div#gnbBG */
+/* div#gnbBG */
 div#gnbBG {
     width: 100%;
     height: 180px;
 
 
 }
-    /* div#gnbBG */
+
+/* div#gnbBG */
 
 /* div#gnbBGFrame */
 
@@ -186,7 +192,7 @@ div#searchArea {
     background-position: 50% 50%;
 }
 
-div#searchArea>h1 {
+div#searchArea > h1 {
     color: #fff;
     width: 600px;
     font-size: 40px;
@@ -194,7 +200,8 @@ div#searchArea>h1 {
     text-align: center;
     margin: 50px auto;
 }
-div#searchArea>div#searchBG {
+
+div#searchArea > div#searchBG {
     width: 770px;
 
     padding: 12px 26px 25px;
@@ -205,7 +212,7 @@ div#searchArea>div#searchBG {
     background-color: #fff;
 }
 
-div#searchArea>div#searchBG span {
+div#searchArea > div#searchBG span {
     width: 36px;
     height: 36px;
     /*border: 1px solid #000;*/
@@ -214,18 +221,19 @@ div#searchArea>div#searchBG span {
     display: inline-block;
 }
 
-div#searchArea>div#searchBG span#closeMark {
+div#searchArea > div#searchBG span#closeMark {
     color: #666;
     font-size: 44px;
     text-align: center;
     line-height: 44px;
     /*display: none;  공간도 사라지므로 안됨!*/
-    visibility: hidden;   /* 공간을 남겨둔채로 사라짐 */
+    visibility: hidden;
+    /* 공간을 남겨둔채로 사라짐 */
 
     transform: translateY(7px);
 }
 
-div#searchArea>div#searchBG span#searchMark {
+div#searchArea > div#searchBG span#searchMark {
 
     margin-right: 14px;
 
@@ -237,7 +245,8 @@ div#searchArea>div#searchBG span#searchMark {
 
 
 }
-div#searchArea>div#searchBG>input {
+
+div#searchArea > div#searchBG > input {
     color: #666;
     width: 620px;
     font-size: 17px;
@@ -245,12 +254,14 @@ div#searchArea>div#searchBG>input {
     border: none;
 }
 
-    /*placeholder 속성에 CSS 적용시작*/
-div#searchArea>div#searchBG>input::placeholder {
+/*placeholder 속성에 CSS 적용시작*/
+div#searchArea > div#searchBG > input::placeholder {
     color: #aaa;
     font-size: 19px;
-}   /* 슈도 엘리먼트 속성 */
-    /*placeholder 속성에 CSS 적용끝*/
+}
+
+/* 슈도 엘리먼트 속성 */
+/*placeholder 속성에 CSS 적용끝*/
 
 /* div#searchArea */
 
@@ -265,7 +276,8 @@ div#mainIconLNB_Frame {
     position: absolute;
     transform: translateY(-90%);
 }
-div#mainIconLNB_Frame>nav {
+
+div#mainIconLNB_Frame > nav {
     padding: 10px;
     /*border: 1px solid #f80;*/
 
@@ -287,38 +299,119 @@ div#mainIconLNB_Frame>nav {
 #mainIconLNB_Frame span {
     color: #fff;
     font-size: 24px;
-   /* font-weight: bold;*/
+    /* font-weight: bold;*/
 }
+
 /*div#mainIconLNB_Frame*/
 
 
 /* div#jusoIntro_Frame */
 div#jusoIntro_Frame {
     width: 100%;
+    padding-bottom: 40px;
     background-color: #f2f2f2;
 }
 
 div#jusoIntro {
-    width: 400px;
-    height: 200px;
-    border: 1px solid #f80;
+    width: 1200px;
+
+    border: 1px solid #aaa;
+
+    background-color: #fff;
     position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -12%);
 
-
 }
 
+/*
+#jusoIntro > div {
+    border: 1px solid #000;
+}
+*/
+
+#jusoIntro > div#aboutJuso {
+    width: 270px;
+    padding: 24px;
+    background-color: #f8f8f8;
+}
+/*
+
+#jusoIntro > div#aboutJuso > ul#jusoItem {
+    border: 1px solid #000;
+}
+
+*/
+#jusoIntro ul#jusoItem > li {
+    width: 310px;
+    font-size: 18px;
+    line-height: 42px;
+    padding-left: 20px;
+
+    cursor: pointer;
+}
+
+.selected {
+    color: #fff;
+    font-weight: bold;
+    background-image: url(../images/tabslit_on.png);
+    -webkit-background-size: 300px 44px;
+    background-size: 276px 44px;
+    background-repeat: no-repeat;
+}
+
+
+#jusoIntro>div#slide {
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#jusoIntro div#jusoRoadSign {
+    padding: 40px;
+}
+
+#jusoIntro div#jusoExplain {
+    width: 100%;
+    padding: 80px 40px 40px 0;
+    /*border: 1px solid #08f;*/
+}
+
+
+    /*div#jusoExplain 시작 */
+#jusoIntro #jusoExplain h2 {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+#jusoIntro #jusoExplain hr {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 30px;
+}
+
+#jusoIntro #jusoExplain p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+#jusoIntro #jusoExplain p span {
+    color: #08f;
+}
+
+#jusoIntro div#slide {
+    overflow: hidden;
+}
+/*
+
+#jusoIntro #shuttleFrame {
+    border: 1px solid #f00;
+}
+
+*/
+    /*div#jusoExplain 끝 */
+
+
 /* div#jusoIntro_Frame */
-
-
-
-
-
-
-
-
-
-
-
