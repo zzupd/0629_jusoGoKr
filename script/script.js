@@ -109,6 +109,27 @@ $(function(){
     /* 도로명 주소 슬라이드쇼 샘플(임시적용) */
 
 
+
+    /* 개발자센터 페이지(=활용 서비스) 이동 */
+
+    $("div.apiBox").eq(0).click(function(){
+        //location.href="addrlink/developerCenter_01.html";
+        // 현재페이지에서 이동
+        window.open("addrlink/developerCenter_01.html");
+        return false;
+        // 새로운 페이지에서 이동
+    });
+
+    $("div.apiBox").eq(1).click(function(){
+        window.open("addrlink/developerCenter_02.html");
+        return false;
+    });
+
+
+
+    /* 개발자센터 페이지(=활용 서비스) 이동 */
+
+
 });   // 제이쿼리 템플릿코드
 
 
