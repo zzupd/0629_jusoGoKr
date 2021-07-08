@@ -430,6 +430,8 @@ div#contents {
     padding: 60px 0 40px;
     border: 1px solid #aaa;
     margin: 0 auto;
+
+    justify-content: space-between;
 }
 
 #contents>div {
@@ -442,10 +444,10 @@ div#contents {
 
     /* div#userService 600*320 */
 div#userService {
-    width: 600px;
+    width: 580px;
 }
 #userService>div#api {
-    padding: 40px 0;
+    padding: 44px 0;
     border: 1px solid #ccc;
     margin: 10px 0;
     background-color: #f5f7fc;
@@ -474,11 +476,10 @@ div#userService {
     border-radius: 45px;
     margin: 0px auto 20px;
 
-
-
     background-color: #fff;
     display: block;
 }
+
 #userService>div#api span {
     font-size: 21px;
 }
@@ -487,14 +488,66 @@ div#userService {
 
     /* div#noticeBoard 300*320 */
 div#noticeBoard {
-    width: 300px;
+    width: 290px;
 }
+
+#noticeBoard>header {
+    /*border: 1px solid #000;*/
+    padding: 0 2px;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+#noticeBoard>header>h2{
+    /*border: 1px solid #f00;*/
+    margin-bottom: 4px;
+}
+#noticeBoard>header>div#noticeControl {
+    width: 96px;
+    padding-bottom: 2px;
+    /*border: 1px solid #f00;  */
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+#noticeBoard>header>#noticeControl>span {
+    width: 18px;
+    height: 18px;
+    /*border: 1px solid #000;*/
+    border-radius: 9px;
+    background-color: #909090;
+
+    cursor: pointer;
+
+    transition: all 1s;  /* 전이효과 : 변화되는 과정을 애니메이션으로 볼 수 있음 */
+}
+
+#noticeBoard>header>#noticeControl>span.noticeSelected {
+    width: 34px;
+    background-color: #1078bc;
+}
+#noticeBoard>header>#noticeControl>img {
+    margin-left: 4px;
+
+    cursor: pointer;
+}
+
+#noticeBoard>div#noticeSlide {
+    width: 285px;
+    /*border: 1px solid #08f;*/
+
+    overflow: hidden;
+}
+#noticeBoard>#noticeSlide>div#noticeShuttleFrame {
+    width: 578px;
+    /*border: 1px solid #f80;*/
+}
+
     /* div#noticeBoard */
 
 
     /* div#helpCenter 300*320 */
 div#helpCenter {
-    width: 300px;
+    width: 290px;
 }
     /* div#helpCenter */
 
