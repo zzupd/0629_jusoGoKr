@@ -15,7 +15,7 @@
 body {
     background-color: #fff;  /* 배경색 */
 
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
 }
 
 a:link {      /* 슈도(Pseudo, 의사, 짝퉁) 클래스 선택자*/

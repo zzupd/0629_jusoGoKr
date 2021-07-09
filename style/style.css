@@ -428,7 +428,7 @@ div#contentsFrame {
 div#contents {
     width: 1200px;
     padding: 60px 0 40px;
-    border: 1px solid #aaa;
+    /*border: 1px solid #aaa;*/
     margin: 0 auto;
 
     justify-content: space-between;
@@ -436,7 +436,7 @@ div#contents {
 
 #contents>div {
     height: 320px;
-    border: 1px solid #08f;
+    /*border: 1px solid #08f;*/
 }
 
     /* div#contents */
@@ -549,11 +549,33 @@ div#noticeBoard {
 div#helpCenter {
     width: 290px;
 }
+#helpCenter>header {
+    padding-bottom: 10px;
+    /*border: 1px solid #000;*/
+}
+#helpCenter>div#helpCenterInfo {
+    padding: 40px 40px 90px;
+    border: 1px solid #ccc;
+    background-image: url(../images/icon_helpcenter.png);
+    background-repeat: no-repeat;
+    background-position: 170px 136px;
+}
+#helpCenter span#centerPhone {
+    color: #284a7e;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    display: block;
+}
+#helpCenter ul li {
+    color: #666;
+    line-height: 26px;
+}
+#helpCenter ul span {
+    font-size: 20px;
+}
+
     /* div#helpCenter */
-
-
-
-
 
 
 
@@ -563,7 +585,77 @@ div#helpCenter {
 
 
 
+/* nav#footerLNB */
+nav#footerLNB {
+    padding: 10px 0;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+ul#footerMenu {
+    width: 1200px;
+    margin: 0 auto;
+}
+ul#footerMenu li{
+    color: #333;
+}
+
+ul#footerMenu li:nth-child(2n) {
+    margin: 0 16px;
+}
+
+/* nav#footerLNB */
 
 
 
+/* div#footerFrame */
+div#footerFrame {
+    padding-top: 40px;
+    /*border: 1px solid #000;*/
+    background-color: #f2f2f2;
+}
+
+#footerFrame>footer#footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#footerFrame div#footerLogo {
+    width: 180px;
+    height: 120px;
+    /*border: 1px solid #08f;*/
+
+    background-image: url(../images/logo_foot_gray.jpg);
+    background-repeat: no-repeat;
+}
+#footerFrame div#companyInfo {
+    font-size: 14px;
+    /*border: 1px solid #08f;*/
+
+    margin: 0 80px;
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+#footerFrame div#companyInfo address {
+    color: #555;
+    font-style: normal;
+    margin-bottom: 14px;
+}
+#footerFrame div#companyInfo p {
+    color: #555;
+}
+
+#footerFrame div#familySite {
+    width: 214px;
+    /*border: 1px solid #08f;*/
+
+    background-image: url(../images/mark_wa.png), url(../images/mark_klid.png);
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+
+
+}
+/* div#footerFrame */
 
